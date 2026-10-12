@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>TaskFlow — мой список задач</h1>
+
+      <form id="task-form">
+        <input
+          id="task-input"
+          type="text"
+          placeholder="Например, изучить JavaScript"
+        />
+        <button type="submit">Добавить</button>
+      </form>
+      
+      <p>Количество задач: <span id="task-count">0</span></p>
+      <ul id="task-list"></ul>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
